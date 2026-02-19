@@ -1,0 +1,58 @@
+{
+  "HomePage": {
+    "title": "Alumni Directory",
+    "subtitle": "Official alumni verification platform - Connected to KFOKAM48, the first free intensive developer training school in Cameroon based on peer-to-peer learning.",
+    "stat1": "100% Free",
+    "stat2": "24/7 Campus",
+    "stat3": "18-36 Months",
+    "cta1": "Verify Matricule",
+    "cta2": "Learn More",
+    "featuresTitle": "Platform Features",
+    "featuresSubtitle": "Official alumni verification and credibility tools",
+    "feature1Title": "Matricule Verification",
+    "feature1Desc": "Verify the authenticity of K48 training via unique matricule number.",
+    "feature2Title": "Alumni Directory",
+    "feature2Desc": "Centralized registry of all verified graduates from K48.",
+    "feature3Title": "Project Showcase",
+    "feature3Desc": "Public portfolio of peer-to-peer projects completed during training.",
+    "feature4Title": "Batch History",
+    "feature4Desc": "Track promotion cohorts and institutional continuity.",
+    "feature5Title": "Professional Credibility",
+    "feature5Desc": "Verified profiles connecting alumni to opportunities.",
+    "feature6Title": "Institutional Authority",
+    "feature6Desc": "PKFokam Institute of Excellence official certification.",
+    "aboutTitle": "About 48hub",
+    "aboutP1": "48hub is the official alumni verification platform, providing authentication and credibility for graduates. We maintain a centralized registry of verified alumni and their achievements.",
+    "aboutP2": "Our platform connects to KFOKAM48 (K48), the first intensive developer training school in Cameroon. K48 offers completely free education based on peer-to-peer learning, inspired by École 42.",
+    "aboutP3": "We showcase verified projects, track career evolution, and provide proof-of-training via unique matricule numbers. Our mission: establish credibility and visibility for African tech talent.",
+    "aboutLink": "Visit KFOKAM48 Website",
+    "about48hub": "48hub serves as the verification portal and alumni registry for KFOKAM48 graduates, providing proof-of-training and career showcase capabilities."
+  },
+  "Header": {
+    "home": "Home",
+    "features": "Features",
+    "about": "About"
+  },
+  "Footer": {
+    "description": "Official alumni verification platform - Connected to KFOKAM48, the first free intensive developer training school in Cameroon.",
+    "copyright": "K48 - Alumni Platform"
+  },
+  "Login": {
+    "title": "Sign In",
+    "subtitle": "Access your alumni space",
+    "matricule": "Matricule",
+    "matriculePlaceholder": "Your K48 matricule",
+    "password": "Password",
+    "passwordPlaceholder": "Your password",
+    "submit": "Sign In",
+    "forgotPassword": "Forgot password?",
+    "reset": "Reset",
+    "backToHome": "← Back to home",
+    "platformNote": "Alumni Identity Network"
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "english": "English",
+    "french": "Français"
+  }
+}

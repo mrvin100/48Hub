@@ -1,0 +1,58 @@
+{
+  "HomePage": {
+    "title": "Annuaire des Alumni",
+    "subtitle": "Plateforme officielle de vérification des alumni - Connectée à KFOKAM48, première école de formation intensive en développement gratuite au Cameroun basée sur l'apprentissage peer-to-peer.",
+    "stat1": "100% Gratuit",
+    "stat2": "Campus 24/7",
+    "stat3": "18-36 Mois",
+    "cta1": "Vérifier un Matricule",
+    "cta2": "En Savoir Plus",
+    "featuresTitle": "Fonctionnalités de la Plateforme",
+    "featuresSubtitle": "Outils officiels de vérification et de crédibilité des alumni",
+    "feature1Title": "Vérification du Matricule",
+    "feature1Desc": "Vérifiez l'authenticité de la formation K48 via le numéro de matricule unique.",
+    "feature2Title": "Annuaire des Alumni",
+    "feature2Desc": "Registre centralisé de tous les diplômés vérifiés de K48.",
+    "feature3Title": "Vitrine de Projets",
+    "feature3Desc": "Portfolio public des projets peer-to-peer réalisés durant la formation.",
+    "feature4Title": "Historique des Promotions",
+    "feature4Desc": "Suivi des cohortes de promotions et continuité institutionnelle.",
+    "feature5Title": "Crédibilité Professionnelle",
+    "feature5Desc": "Profils vérifiés connectant les alumni aux opportunités.",
+    "feature6Title": "Autorité Institutionnelle",
+    "feature6Desc": "Certification officielle du PKFokam Institute of Excellence.",
+    "aboutTitle": "À Propos de 48hub",
+    "aboutP1": "48hub est la plateforme officielle de vérification des alumni, fournissant authentification et crédibilité pour les diplômés. Nous maintenons un registre centralisé des alumni vérifiés et de leurs réalisations.",
+    "aboutP2": "Notre plateforme est connectée à KFOKAM48 (K48), la première école de formation intensive en développement au Cameroun. K48 offre une éducation totalement gratuite basée sur l'apprentissage peer-to-peer, inspirée de l'École 42.",
+    "aboutP3": "Nous mettons en valeur les projets vérifiés, suivons l'évolution de carrière et fournissons une preuve de formation via des numéros de matricule uniques. Notre mission : établir la crédibilité et la visibilité des talents tech africains.",
+    "aboutLink": "Visiter le Site KFOKAM48",
+    "about48hub": "48hub sert de portail de vérification et d'annuaire des alumni pour les diplômés KFOKAM48, fournissant preuve de formation et vitrine de carrière."
+  },
+  "Header": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "about": "À Propos"
+  },
+  "Footer": {
+    "description": "Plateforme officielle de vérification des alumni - Connectée à KFOKAM48, première école gratuite de formation intensive en développement au Cameroun.",
+    "copyright": "K48 - Plateforme Alumni"
+  },
+  "Login": {
+    "title": "Connexion",
+    "subtitle": "Accédez à votre espace alumni",
+    "matricule": "Matricule",
+    "matriculePlaceholder": "Votre matricule K48",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Votre mot de passe",
+    "submit": "Se Connecter",
+    "forgotPassword": "Mot de passe oublié?",
+    "reset": "Réinitialiser",
+    "backToHome": "← Retour à l'accueil",
+    "platformNote": "Réseau d'Identité Alumni"
+  },
+  "LanguageSwitcher": {
+    "label": "Langue",
+    "english": "English",
+    "french": "Français"
+  }
+}
