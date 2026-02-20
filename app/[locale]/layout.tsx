@@ -101,6 +101,9 @@ export const metadata = {
     apple: "/apple-icon.png",
   },
   manifest: "/site.webmanifest",
+  verification: {
+    google: "LBZPSvVcWOuzadl2yzjdnfKY0u7GlVgML03aCZfwL24",
+  },
 }
 
 export default async function LocaleLayout({
