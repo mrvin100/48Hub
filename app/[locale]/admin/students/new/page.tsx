@@ -266,7 +266,7 @@ export default function AddStudentPage() {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="student@example.com"
+                  placeholder="student@48hub.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   disabled={isLoading}

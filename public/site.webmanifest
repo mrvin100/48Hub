@@ -1,7 +1,7 @@
 {
-  "name": "EINCODE — Ehsan Ghaffar's Digital Laboratory",
-  "short_name": "EINCODE",
-  "description": "A digital workshop where code meets curiosity. Experiments, prototypes, and open-source artifacts by Ehsan Ghaffar.",
+  "name": "48hub - Alumni Identity Network",
+  "short_name": "48hub",
+  "description": "Official alumni verification and identity platform. Connected to KFOKAM48, the first free intensive developer training school in Cameroon.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

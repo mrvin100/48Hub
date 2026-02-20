@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://48hub.com'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://48hub.vercel.app'
 
   return [
     {
@@ -11,16 +11,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/#features`,
+      url: `${baseUrl}/fr`,
       lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/#about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.9,
+      changeFrequency: 'weekly' as const,
+      priority: 1,
     },
   ]
 }
