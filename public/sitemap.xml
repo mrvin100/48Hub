@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- TIER 1: Maximum Priority - Immediate Index Target -->
+  <url>
+    <loc>https://48hub.vercel.app</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://48hub.vercel.app/fr</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+</urlset>
