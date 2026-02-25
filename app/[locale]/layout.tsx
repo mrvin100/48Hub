@@ -36,22 +36,41 @@ export function generateStaticParams() {
 export const metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://48hub.vercel.app'),
   title: {
-    default: "48hub - Alumni Identity Network",
+    default: "48hub - Alumni Identity Network | Verify KFOKAM48 Graduates",
     template: "%s | 48hub",
   },
   description:
-    "Official alumni verification and identity platform. Connected to KFOKAM48, the first free intensive developer training school in Cameroon based on peer-to-peer learning.",
+    "Official alumni verification platform for KFOKAM48 graduates. Search and discover verified student profiles, check matricule authenticity, explore tech projects. Sign in to your 48hub student portal. Connected to PKFokam Institute of Excellence, Cameroon's first free intensive developer training school.",
   keywords: [
     "48hub",
     "alumni verification",
     "alumni identity network",
     "KFOKAM48",
-    "developer training Cameroon",
-    "peer learning Africa",
-    "student verification",
+    "K48",
+    "PKFokam Institute",
+    "PKFokam Institute of Excellence",
+    "verify student profile",
+    "search student profile",
+    "discover alumni",
+    "check matricule",
     "matricule verification",
+    "student portal",
+    "hub student login",
+    "sign in 48hub",
+    "developer training Cameroon",
+    "free coding school Cameroon",
+    "peer learning Africa",
+    "peer-to-peer learning",
     "tech alumni platform",
-    "developer portfolio Africa"
+    "developer portfolio Africa",
+    "Yaounde tech school",
+    "African developer training",
+    "verified tech graduates",
+    "coding bootcamp Cameroon",
+    "software engineering school",
+    "web development training",
+    "full stack developer course",
+    "free programming school"
   ],
   creator: "48hub",
   publisher: "48hub",
@@ -60,22 +79,22 @@ export const metadata = {
     locale: "en_US",
     alternateLocale: ["fr_FR"],
     url: "https://48hub.vercel.app",
-    title: "48hub - Alumni Identity Network",
-    description: "Official alumni verification and identity platform. Connected to KFOKAM48, the first free developer training school in Cameroon.",
+    title: "48hub - Alumni Identity Network | Verify KFOKAM48 Graduates",
+    description: "Search and discover verified student profiles from KFOKAM48. Check matricule authenticity, explore projects, and access the student portal. Official alumni platform of PKFokam Institute of Excellence.",
     siteName: "48hub",
     images: [
       {
         url: "https://48hub.vercel.app/og-image.png",
         width: 1200,
         height: 630,
-        alt: "48hub - Alumni Identity Network",
+        alt: "48hub - Alumni Identity Network | Verify KFOKAM48 Graduates",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "48hub - Alumni Identity Network",
-    description: "Official alumni verification platform. Connected to KFOKAM48 - Developer training excellence in Cameroon.",
+    title: "48hub - Alumni Identity Network | Verify KFOKAM48 Graduates",
+    description: "Search verified student profiles, check matricule authenticity, explore tech projects. Sign in to 48hub student portal. PKFokam Institute of Excellence alumni platform.",
     images: ["https://48hub.vercel.app/og-image.png"],
     creator: "@48hub",
     site: "@48hub",
@@ -128,6 +147,7 @@ export default async function LocaleLayout({
     <html lang={locale} suppressHydrationWarning className={`${geist.variable} ${geistMono.variable} ${spaceGrotesk.variable}`}>
       <head>
         <StructuredData />
+        <meta name="google-site-verification" content="LBZPSvVcWOuzadl2yzjdnfKY0u7GlVgML03aCZfwL24" />
       </head>
       <body className="font-sans antialiased">
         <NextIntlClientProvider messages={messages}>

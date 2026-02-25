@@ -1,6 +1,6 @@
 "use client"
 
-import { Mail, ExternalLink, Heart } from "lucide-react"
+import { Mail, ExternalLink, Users, Github, Linkedin, MapPin } from "lucide-react"
 import {useTranslations} from 'next-intl'
 
 export function Footer() {
@@ -8,6 +8,8 @@ export function Footer() {
   
   const socialLinks = [
     { label: "Email", href: "mailto:mailtoteam48@gmail.com", handle: "mailtoteam48@gmail.com", icon: Mail },
+    { label: "GitHub", href: "https://github.com/mrvin100/48Hub", handle: "48Hub Repository", icon: Github },
+    { label: "LinkedIn", href: "#", handle: "Follow us on LinkedIn", icon: Linkedin },
   ]
   
   return (
@@ -42,7 +44,7 @@ export function Footer() {
           {/* Right column - Links */}
           <div className="space-y-6 lg:text-right animate-fade-in-up stagger-2">
             <p className="font-mono text-xs uppercase tracking-[0.25em] sm:tracking-[0.35em] text-muted-foreground">
-              Find me elsewhere
+              Find us elsewhere
             </p>
             <div className="space-y-2">
               {socialLinks.map((link, index) => (
@@ -66,6 +68,15 @@ export function Footer() {
                   <span className="font-mono text-xs text-muted-foreground truncate">{link.handle}</span>
                 </a>
               ))}
+              
+              {/* Contact Location */}
+              <div className="flex items-center gap-3 rounded-xl border border-transparent p-4 lg:flex-row-reverse glass animate-fade-in" style={{ animationDelay: `${socialLinks.length * 100 + 400}ms` }}>
+                <div className="flex items-center gap-3 lg:flex-row-reverse">
+                  <MapPin className="h-5 w-5 text-muted-foreground" />
+                  <span className="font-mono text-sm font-medium">Location</span>
+                </div>
+                <span className="font-mono text-xs text-muted-foreground truncate">Tradex Emana, Yaounde Cameroon</span>
+              </div>
             </div>
           </div>
         </div>
@@ -77,7 +88,7 @@ export function Footer() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
             <span>Forged with</span>
-            <Heart className="h-3.5 w-3.5 text-destructive animate-pulse" />
+            <Users className="h-3.5 w-3.5 text-destructive animate-pulse" />
             <span>& code</span>
           </div>
 

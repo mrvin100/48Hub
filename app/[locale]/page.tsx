@@ -4,8 +4,15 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, BookOpen, Zap, Users, Target, Award, Shield } from "lucide-react"
 
 export const metadata = {
-  title: "Accueil - Plateforme Alumni KFOKAM48",
-  description: "Plateforme officielle des diplômés de KFOKAM48, première école de développement informatique gratuite au Cameroun. Vérifiez l'authenticité des formations, découvrez les projets des alumni et consultez leur parcours professionnel.",
+  title: "Home - Verify KFOKAM48 Alumni | Search Student Profiles | 48hub Portal",
+  description: "Official KFOKAM48 alumni platform. Search and discover verified student profiles, check matricule authenticity, explore tech projects. Sign in to your 48hub student portal. Learn about PKFokam Institute of Excellence - Cameroon's first free intensive developer training school based on peer-to-peer learning.",
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en': '/en',
+      'fr': '/fr',
+    },
+  },
 }
 
 export default function Home() {
