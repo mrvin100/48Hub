@@ -9,7 +9,8 @@ export function Footer() {
   const socialLinks = [
     { label: "Email", href: "mailto:mailtoteam48@gmail.com", handle: "mailtoteam48@gmail.com", icon: Mail },
     { label: "GitHub", href: "https://github.com/mrvin100/48Hub", handle: "48Hub Repository", icon: Github },
-    { label: "LinkedIn", href: "#", handle: "Follow us on LinkedIn", icon: Linkedin },
+    { label: "KFOKAM48", href: "https://kfokam48.org", handle: "Visit KFOKAM48", icon: ExternalLink },
+    { label: "PKFokam Institute", href: "https://pkfinstitute.com", handle: "PKFokam Institute", icon: ExternalLink },
   ]
   
   return (
@@ -31,10 +32,10 @@ export function Footer() {
 
             <div className="pt-2">
               <a
-                href="mailto:contact@kfokam48.org"
+                href="mailto:mailtoteam48@gmail.com"
                 className="group relative inline-flex items-center justify-center gap-3 overflow-hidden rounded-xl border border-primary bg-primary/10 px-8 py-4 sm:py-4 font-mono text-sm text-primary transition-all duration-500 hover:text-primary-foreground active:scale-[0.98] w-full sm:w-auto"
               >
-                <span className="relative z-10">Nous Contacter</span>
+                <span className="relative z-10">Contact Us</span>
                 <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">→</span>
                 <span className="absolute inset-0 -translate-x-full bg-primary transition-transform duration-500 group-hover:translate-x-0" />
               </a>

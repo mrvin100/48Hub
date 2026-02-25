@@ -4,6 +4,7 @@ export function StructuredData() {
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${baseUrl}/#organization`,
     "name": "48hub",
     "alternateName": ["48hub Alumni Network", "KFOKAM48 Alumni Platform"],
     "description": "Official alumni verification platform for KFOKAM48 graduates. Search and discover verified student profiles, check matricule authenticity, explore tech projects, and access the student portal. Connected to PKFokam Institute of Excellence.",
@@ -38,13 +39,13 @@ export function StructuredData() {
   const website = {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${baseUrl}/#website`,
     "name": "48hub - Alumni Identity Network",
     "alternateName": "48hub",
     "url": baseUrl,
     "description": "Official alumni verification platform for KFOKAM48 graduates. Search and discover verified student profiles, check matricule authenticity, explore tech projects. Sign in to your 48hub student portal.",
     "publisher": {
-      "@type": "Organization",
-      "name": "48hub"
+      "@id": `${baseUrl}/#organization`
     },
     "inLanguage": ["en-US", "fr-FR"],
     "potentialAction": {

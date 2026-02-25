@@ -36,11 +36,11 @@ export function generateStaticParams() {
 export const metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://48hub.vercel.app'),
   title: {
-    default: "48hub - Alumni Identity Network | Verify KFOKAM48 Graduates",
+    default: "48hub - KFOKAM48 Alumni Network",
     template: "%s | 48hub",
   },
   description:
-    "Official alumni verification platform for KFOKAM48 graduates. Search and discover verified student profiles, check matricule authenticity, explore tech projects. Sign in to your 48hub student portal. Connected to PKFokam Institute of Excellence, Cameroon's first free intensive developer training school.",
+    "Verify KFOKAM48 graduates, explore portfolios, and connect with Africa's top peer-trained developers. Official alumni platform by PKFokam Institute. Free. Transparent. Credible.",
   keywords: [
     "48hub",
     "alumni verification",
